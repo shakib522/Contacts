@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/renameMenuId"
+        android:title="Rename Contact"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/deleteMenuId"
+        android:title="Delete Contact"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/copyMenuId"
+        android:title="Copy"
+        app:showAsAction="never" />
+</menu>
