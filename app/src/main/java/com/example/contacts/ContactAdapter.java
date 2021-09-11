@@ -1,9 +1,7 @@
 package com.example.contacts;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -51,15 +49,11 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.MyViewHo
 
         ImageView imageView;
         TextView nameTextView,imageTextView;
-        Typeface typeface;
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
             nameTextView=itemView.findViewById(R.id.sampleTextViewId);
-            typeface=Typeface.createFromAsset(context.getAssets(), "fonts/Faun.ttf");
-            nameTextView.setTypeface(typeface);
             imageTextView=itemView.findViewById(R.id.sampleImageTextId);
             imageView=itemView.findViewById(R.id.sampleImageViewId);
-            imageTextView.setTypeface(typeface);
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {

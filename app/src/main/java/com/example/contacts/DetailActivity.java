@@ -32,7 +32,6 @@ public class DetailActivity extends AppCompatActivity {
     AppCompatButton numberButton;
     TextView nameTextView;
     ImageButton imageButton;
-    Typeface typeface;
     private static final int REQUEST_PHONE_CALL = 1;
 
     @Override
@@ -42,15 +41,11 @@ public class DetailActivity extends AppCompatActivity {
         Objects.requireNonNull(getSupportActionBar()).setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        typeface = Typeface.createFromAsset(getAssets(), "fonts/Faun.ttf");
         imageButton = findViewById(R.id.detailsImageButtonId);
         numberButton = findViewById(R.id.detailsNumberButton);
         nameTextView = findViewById(R.id.detailTextViewId);
         contactModel = (ContactModel) getIntent().getSerializableExtra("CONTACT");
 
-        //set font
-        numberButton.setTypeface(typeface);
-        nameTextView.setTypeface(typeface);
 
         numberButton.setText(contactModel.getNumber());
         nameTextView.setText(contactModel.getName());

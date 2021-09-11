@@ -24,6 +24,7 @@
             app:civ_border_color="#FFFFFF"/>
 
         <TextView
+            android:textStyle="bold"
             android:id="@+id/sampleTextViewId"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
