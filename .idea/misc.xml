@@ -3,15 +3,31 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2234375" />
+        <entry key="app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2234375" />
         <entry key="app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.2234375" />
         <entry key="app/src/main/res/drawable/ic_baseline_chat_bubble_outline_24.xml" value="0.2234375" />
         <entry key="app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.2234375" />
+        <entry key="app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.2234375" />
         <entry key="app/src/main/res/drawable/ic_baseline_message_24.xml" value="0.2234375" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2234375" />
-        <entry key="app/src/main/res/layout/activity_add.xml" value="0.20729166666666668" />
+        <entry key="app/src/main/res/layout-land/activity_detail.xml" value="0.2520833333333333" />
+        <entry key="app/src/main/res/layout-large/activity_add.xml" value="0.16" />
+        <entry key="app/src/main/res/layout-large/activity_detail.xml" value="0.25" />
+        <entry key="app/src/main/res/layout-large/sample_layout.xml" value="0.25" />
+        <entry key="app/src/main/res/layout-normal/activity_add.xml" value="0.25" />
+        <entry key="app/src/main/res/layout-normal/activity_detail.xml" value="0.20729166666666668" />
+        <entry key="app/src/main/res/layout-normal/sample_layout.xml" value="0.33" />
+        <entry key="app/src/main/res/layout-small/activity_add.xml" value="0.25" />
+        <entry key="app/src/main/res/layout-small/activity_detail.xml" value="0.25" />
+        <entry key="app/src/main/res/layout-small/sample_layout.xml" value="0.25" />
+        <entry key="app/src/main/res/layout-xlarge/activity_add.xml" value="0.16" />
+        <entry key="app/src/main/res/layout-xlarge/activity_detail.xml" value="0.2" />
+        <entry key="app/src/main/res/layout-xlarge/sample_layout.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_add.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_detail.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="app/src/main/res/layout/sample_layout.xml" value="0.20729166666666668" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/sample_layout.xml" value="0.25" />
         <entry key="app/src/main/res/menu/menu.xml" value="0.20729166666666668" />
         <entry key="app/src/main/res/menu/operation.xml" value="0.18" />
       </map>

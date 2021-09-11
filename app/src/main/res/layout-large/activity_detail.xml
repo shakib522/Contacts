@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:id="@+id/detailTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:background="@color/purple_200"
+        android:gravity="bottom|center"
+        android:padding="30dp"
+        android:textColor="#DCD4D4"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_below="@+id/detailTextViewId"
+        android:weightSum="12">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:textColor="@color/black"
+            android:layout_weight="10"
+            android:id="@+id/detailsNumberButton"
+            android:layout_width="0dp"
+            android:layout_height="170dp"
+            android:background="?selectableItemBackground"
+            android:drawableStart="@drawable/ic_baseline_call_128"
+            android:textSize="25sp" />
+
+        <ImageButton
+            android:layout_weight="2"
+            android:id="@+id/detailsImageButtonId"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:background="?selectableItemBackground"
+            android:src="@drawable/speech_buble_large"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
