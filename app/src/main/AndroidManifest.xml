@@ -13,7 +13,8 @@
         <activity
             android:name=".DetailActivity"
             android:exported="true"
-            android:label="Contact Detail"/>
+            android:label="Contact Detail"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".AddActivity"
             android:exported="true"
