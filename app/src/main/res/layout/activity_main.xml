@@ -6,7 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <EditText
+        android:drawableLeft="@drawable/ic_baseline_search_24"
+        android:hint="search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextId"
+        />
+
     <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@id/editTextId"
         android:id="@+id/recyclerViewId"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

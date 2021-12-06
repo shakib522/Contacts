@@ -40,6 +40,10 @@ public class ContactModel implements Serializable,Comparable<ContactModel> {
         return number;
     }
 
+    public  String getText1() {
+        return String.valueOf(name.charAt(0));
+    }
+
     public void setNumber(String number) {
         this.number = number;
     }
